@@ -62,7 +62,7 @@ Run everything from the repo root. `python scripts/...` puts `src/` on `PYTHONPA
 
 ## 1. Data
 
-### Synthetic (shipped)
+### Synthetic 
 
 Clips and the eval manifest live under `data/synth_reps_10k/`. Rebuild from scratch if you want:
 
@@ -73,7 +73,7 @@ python scripts/qc_synth.py --root data/synth_reps_10k
 
 `--per-k 50` → 10 families × 20 values of *k* × 50 = 10,000 clips.
 
-### Real (RepCount n-rep, not shipped)
+### Real (RepCount n-rep)
 
 Needs official RepCount videos plus the per-cycle `L1, L2, …` annotation CSVs.
 
