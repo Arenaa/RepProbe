@@ -44,13 +44,9 @@ Synthetic families: flash, textured, bounce, pendulum, scale, color, multi, shap
 
 ## Setup
 
-Synthetic clips are Git LFS objects.
-
 ```bash
-git lfs install
 git clone https://github.com/Arenaa/RepProbe.git
 cd RepProbe
-git lfs pull
 
 python3 -m venv .venv
 source .venv/bin/activate

@@ -2,7 +2,7 @@
 
 ## Synthetic (shipped)
 
-`data/synth_reps_10k/` contains 10,000 clips (Git LFS) plus the eval manifest.
+`data/synth_reps_10k/` contains 10,000 clips plus the eval manifest.
 
 ```text
 data/synth_reps_10k/
