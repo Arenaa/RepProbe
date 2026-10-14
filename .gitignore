@@ -1,0 +1,30 @@
+# Real RepCount clips — rebuild locally from official videos
+data/repcount_nrep/
+
+# Predictions and local run dumps
+data/**/preds/
+data/ovr/
+data/synth_reps_10k/qc_report.jsonl
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+*.pem
+credentials.json
+
+*.log
+*.pid
+hf_cache/
+.cache/
+wandb/
+.ipynb_checkpoints/
+
+.cursor/
+.vscode/
+.idea/
+.DS_Store
+*.swp
